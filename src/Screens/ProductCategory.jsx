@@ -6,7 +6,7 @@ import ProductCardSkeleton from '../Products/ProductCardSkeleton';
 import ProductCard from '../Products/productCard';
 
 
-const productCategory = () => {
+const ProductCategory = () => {
    const {Theme} = useContext(ThemeContext);
    const [productData,setProductData] = useState([]);
    const [loading,setLoading] = useState(true);
@@ -58,4 +58,4 @@ const productCategory = () => {
   );
 };
 
-export default productCategory
+export default ProductCategory;
