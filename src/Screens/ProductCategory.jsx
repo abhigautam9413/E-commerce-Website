@@ -46,9 +46,9 @@ const ProductCategory = () => {
     <div><Navbar/>
     <div className={Theme=="light"?light:dark}>
       <div className="flex justify-evenly w-screen min-h-screen flex-wrap gap-5 mt-7 z-10">
-        {productData.map((pObj)=>{
+        {productData.map((pObj)=>(
             <ProductCard key={pObj.id} data ={pObj}/>
-        })}
+        ))}
       </div>
 
     
